@@ -1,0 +1,258 @@
+{
+    "mainStats": {
+        "flower": {
+            "HP": 100
+        },
+        "feather": {
+            "ATK": 100
+        },
+        "sands": {
+            "HP%": 26.68,
+            "ATK%": 26.66,
+            "DEF%": 26.66,
+            "Energy Recharge%": 10,
+            "Elemental Mastery": 10
+        },
+        "goblet": {
+            "HP%": 21.25,
+            "ATK%": 21.25,
+            "DEF%": 20,
+            "Pyro DMG Bonus%": 5,
+            "Electro DMG Bonus%": 5,
+            "Cryo DMG Bonus%": 5,
+            "Hydro DMG Bonus%": 5,
+            "Anemo DMG Bonus%": 5,
+            "Geo DMG Bonus%": 5,
+            "Physical DMG Bonus%": 5,
+            "Elemental Mastery": 2.5
+        },
+        "circlet": {
+            "HP%": 22,
+            "ATK%": 22,
+            "DEF%": 22,
+            "CRIT Rate%": 10,
+            "CRIT DMG%": 10,
+            "Healing Bonus%": 10,
+            "Elemental Mastery": 4
+        }
+    },
+    "subStats": {
+        "flower": {
+            "ATK": 15.79,
+            "DEF": 15.79,
+            "HP%": 10.53,
+            "ATK%": 10.53,
+            "DEF%": 10.53,
+            "Energy Recharge%": 10.53,
+            "Elemental Mastery": 10.53,
+            "CRIT Rate%": 7.89,
+            "CRIT DMG%": 7.89
+        },
+        "feather": {
+            "HP": 15.79,
+            "DEF": 15.79,
+            "HP%": 10.53,
+            "ATK%": 10.53,
+            "DEF%": 10.53,
+            "Energy Recharge%": 10.53,
+            "Elemental Mastery": 10.53,
+            "CRIT Rate%": 7.89,
+            "CRIT DMG%": 7.89
+        },
+        "sands": {
+            "HP%": {
+                "HP": 15,
+                "ATK": 15,
+                "DEF": 15,
+                "ATK%": 10,
+                "DEF%": 10,
+                "Energy Recharge%": 10,
+                "Elemental Mastery": 10,
+                "CRIT Rate%": 7.5,
+                "CRIT DMG%": 7.5
+            },
+            "ATK%": {
+                "HP": 15,
+                "ATK": 15,
+                "DEF": 15,
+                "HP%": 10,
+                "DEF%": 10,
+                "Energy Recharge%": 10,
+                "Elemental Mastery": 10,
+                "CRIT Rate%": 7.5,
+                "CRIT DMG%": 7.5
+            },
+            "DEF%": {
+                "HP": 15,
+                "ATK": 15,
+                "DEF": 15,
+                "HP%": 10,
+                "ATK%": 10,
+                "Energy Recharge%": 10,
+                "Elemental Mastery": 10,
+                "CRIT Rate%": 7.5,
+                "CRIT DMG%": 7.5
+            },
+            "Energy Recharge%": {
+                "HP": 15,
+                "ATK": 15,
+                "DEF": 15,
+                "HP%": 10,
+                "ATK%": 10,
+                "DEF%": 10,
+                "Elemental Mastery": 10,
+                "CRIT Rate%": 7.5,
+                "CRIT DMG%": 7.5
+            },
+            "Elemental Mastery": {
+                "HP": 15,
+                "ATK": 15,
+                "DEF": 15,
+                "HP%": 10,
+                "ATK%": 10,
+                "DEF%": 10,
+                "Energy Recharge%": 10,
+                "CRIT Rate%": 7.5,
+                "CRIT DMG%": 7.5
+            }
+        },
+        "goblet": {
+            "HP%": {
+                "HP": 15,
+                "ATK": 15,
+                "DEF": 15,
+                "ATK%": 10,
+                "DEF%": 10,
+                "Energy Recharge%": 10,
+                "Elemental Mastery": 10,
+                "CRIT Rate%": 7.5,
+                "CRIT DMG%": 7.5
+            },
+            "ATK%": {
+                "HP": 15,
+                "ATK": 15,
+                "DEF": 15,
+                "HP%": 10,
+                "DEF%": 10,
+                "Energy Recharge%": 10,
+                "Elemental Mastery": 10,
+                "CRIT Rate%": 7.5,
+                "CRIT DMG%": 7.5
+            },
+            "DEF%": {
+                "HP": 15,
+                "ATK": 15,
+                "DEF": 15,
+                "HP%": 10,
+                "ATK%": 10,
+                "Energy Recharge%": 10,
+                "Elemental Mastery": 10,
+                "CRIT Rate%": 7.5,
+                "CRIT DMG%": 7.5
+            },
+            "Elm_Phys_Bonus": {
+                "HP": 13.64,
+                "ATK": 13.64,
+                "DEF": 13.64,
+                "HP%": 9.09,
+                "ATK%": 9.09,
+                "DEF%": 9.09,
+                "Energy Recharge%": 9.09,
+                "Elemental Mastery": 9.09,
+                "CRIT Rate%": 6.82,
+                "CRIT DMG%": 6.82
+            },
+            "Elemental Mastery": {
+                "HP": 15,
+                "ATK": 15,
+                "DEF": 15,
+                "HP%": 10,
+                "ATK%": 10,
+                "DEF%": 10,
+                "Energy Recharge%": 10,
+                "CRIT Rate%": 7.5,
+                "CRIT DMG%": 7.5
+            }
+        },
+        "circlet": {
+            "HP%": {
+                "HP": 15,
+                "ATK": 15,
+                "DEF": 15,
+                "ATK%": 10,
+                "DEF%": 10,
+                "Energy Recharge%": 10,
+                "Elemental Mastery": 10,
+                "CRIT Rate%": 7.5,
+                "CRIT DMG%": 7.5
+            },
+            "ATK%": {
+                "HP": 15,
+                "ATK": 15,
+                "DEF": 15,
+                "HP%": 10,
+                "DEF%": 10,
+                "Energy Recharge%": 10,
+                "Elemental Mastery": 10,
+                "CRIT Rate%": 7.5,
+                "CRIT DMG%": 7.5
+            },
+            "DEF%": {
+                "HP": 15,
+                "ATK": 15,
+                "DEF": 15,
+                "HP%": 10,
+                "ATK%": 10,
+                "Energy Recharge%": 10,
+                "Elemental Mastery": 10,
+                "CRIT Rate%": 7.5,
+                "CRIT DMG%": 7.5
+            },
+            "CRIT Rate%": {
+                "HP": 14.63,
+                "ATK": 14.63,
+                "DEF": 14.63,
+                "HP%": 9.76,
+                "ATK%": 9.76,
+                "DEF%": 9.76,
+                "Energy Recharge%": 9.76,
+                "Elemental Mastery": 9.76,
+                "CRIT DMG%": 7.32
+            },
+            "CRIT DMG%": {
+                "HP": 14.63,
+                "ATK": 14.63,
+                "DEF": 14.63,
+                "HP%": 9.76,
+                "ATK%": 9.76,
+                "DEF%": 9.76,
+                "Energy Recharge%": 9.76,
+                "Elemental Mastery": 9.76,
+                "CRIT Rate%": 7.32
+            },
+            "Healing Bonus%": {
+                "HP": 13.64,
+                "ATK": 13.64,
+                "DEF": 13.64,
+                "HP%": 9.09,
+                "ATK%": 9.09,
+                "DEF%": 9.09,
+                "Energy Recharge%": 9.09,
+                "Elemental Mastery": 9.09,
+                "CRIT Rate%": 6.82,
+                "CRIT DMG%": 6.82
+            },
+            "Elemental Mastery": {
+                "HP": 15,
+                "ATK": 15,
+                "DEF": 15,
+                "HP%": 10,
+                "ATK%": 10,
+                "DEF%": 10,
+                "Energy Recharge%": 10,
+                "CRIT Rate%": 7.5,
+                "CRIT DMG%": 7.5
+            }
+        }
+    }
+}
