@@ -321,16 +321,14 @@ $top_bar_height: 68px;
 }
 
 .page.artifact {
-    display: block;
-    height: fit-content;
+    // display: block;
+    // height: fit-content;
 }
 
 .page.artifact > .artifact-select-container {
     display: grid;
     grid-template-rows: 1fr;
     row-gap: 2rem;
-
-    padding-bottom: 4rem;
 
     .artifact-select {
         position: relative;
@@ -394,10 +392,24 @@ $top_bar_height: 68px;
                 span.main-stat {
                     font-size: 26px;
                     font-weight: 600;
+
+                    margin-bottom: -.4rem;
                 }
 
                 span.main-stat.empty {
                     margin-top: 8px;
+
+                    height: 1.6rem;
+                    margin-bottom: .2rem;
+                }
+
+                input {
+
+                    height: 1.4rem;
+
+                    font-size: 18px;
+                    font-weight: 300;
+                    letter-spacing: 1.2px;
                 }
             }
 
@@ -431,6 +443,19 @@ $top_bar_height: 68px;
             display: flex;
             align-items: center;
             justify-content: center;
+            flex-direction: row;
+
+            span.divider {
+                margin: 0 6px;
+
+                &::before {
+                    height: 2.6rem;
+                    width: 2px;
+
+                    background-color: rgba($accent_color_2, 0.4);
+                    box-shadow: none;
+                }
+            }
         }
 
         span.divider::before {
@@ -439,20 +464,42 @@ $top_bar_height: 68px;
             box-shadow: 0px 0px 12px rgba($accent_color, .6);
         }
 
-        span.empty {
+        span.empty, input {
             height: 1.8rem;
             width: 3.8rem;
 
+            background-color: $background_color;
+
             border: 2px solid rgba($accent_color, .2);
             border-radius: 6px;
+        
+            box-sizing: content-box;
+            padding: 0;
         }
 
-        span {
+        input:active, input:focus {
+            outline: none;
+        }
+
+        span, input {
             color: $light_color;
             font-family: 'Poppins', sans-serif;
             
-            font-size: 24px;
+            font-size: 22px;
             font-weight: 500;
+        }
+
+        // removes arrowy things and increment when scroll (when not focus)
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        // Warn: experimental (ignore lul)
+        input[type=number] {
+            -moz-appearance: textfield;
+            appearance: textfield;
         }
 
         .dropdown-content {
@@ -491,6 +538,30 @@ $top_bar_height: 68px;
         .dropdown-content.visible {
             display: flex;
         }
+    }
+}
+
+.page.artifact > .next-button-container {
+    display: flex;
+    align-items: center;
+    height: 6rem;
+
+    button.next-button {
+        height: 2.6rem;
+        width: 4.8rem;
+
+        color: $background_color;
+        background-color: $accent_color;
+
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 1.2rem;
+
+        outline: none;
+        border: none;
+        border-radius: 6px;
+
+        margin-left: auto;
     }
 }
 

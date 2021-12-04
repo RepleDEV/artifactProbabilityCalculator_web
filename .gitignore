@@ -4,3 +4,9 @@ node_modules/
 # production bundles
 dist/
 public/js/app.js
+
+# xd
+design/
+
+# prefs
+.vscode/

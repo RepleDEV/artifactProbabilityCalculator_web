@@ -276,7 +276,10 @@ class MainContent extends Component<{}, {
 					this.setState({ pageIndex: 2 });
 				}}
 			/>,
-			<Page_Artifacts />
+			<Page_Artifacts nextPageHandler={(aD) => {
+				console.log(aD);
+				// this.setState({ pageIndex: 3 });
+			}}/>
 		]
 
 		return (
