@@ -3,7 +3,7 @@ import Page_Artifacts from "./components/Page_Artifacts";
 // import Dropdown from "./components/Dropdown";
 
 import Page_Character, { Character_Info } from "./components/Page_Character";
-import Page_Weapon from "./components/Page_Weapon";
+import Page_Weapon, { Weapon_Info } from "./components/Page_Weapon";
 
 type ArtifactTypes = "flower" | "feather" | "sands" | "goblet" | "circlet";
 const artifactTypes: ArtifactTypes[] = ["flower", "feather", "sands", "goblet", "circlet"];
@@ -251,15 +251,17 @@ class MainContent extends Component<{}, {
 	pageIndex: number
 	nextPageData: {
 		character_info: Character_Info | { [key: string]: any }
+		weaponInfo: Weapon_Info | { [key: string]: any }
 	}
 }> {
 	constructor(props) {
 		super(props);
 
 		this.state = {
-			pageIndex: 2,
+			pageIndex: 0,
 			nextPageData: {
-				character_info: {}
+				character_info: {},
+				weaponInfo: {}
 			}
 		}
 	}
@@ -272,8 +274,10 @@ class MainContent extends Component<{}, {
 			}}/>,
 			<Page_Weapon 
 				weapon_type={this.state.nextPageData.character_info.weaponType || ""}
-				nextPageHandler={() => {
-					this.setState({ pageIndex: 2 });
+				nextPageHandler={(w) => {
+					let newNextPageData = this.state.nextPageData;
+					newNextPageData.weaponInfo = w;
+					this.setState({ pageIndex: 2, nextPageData: newNextPageData });
 				}}
 			/>,
 			<Page_Artifacts nextPageHandler={(aD) => {

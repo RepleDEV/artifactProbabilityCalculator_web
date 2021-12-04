@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import get_weapon_list from "../modules/get_weapon_list";
 
-interface Weapon_Info {
+export interface Weapon_Info {
 	icon: string
 	name: string
 	base_attack: {
